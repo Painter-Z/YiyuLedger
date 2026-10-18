@@ -1,0 +1,1509 @@
+{
+  "generatedFrom": "Harmony 0.4.0 domain; synthetic data only",
+  "custom": [
+    {
+      "id": "custom_pet",
+      "name": "宠物",
+      "kind": "expense"
+    },
+    {
+      "id": "custom_work",
+      "name": "咨询",
+      "kind": "income"
+    }
+  ],
+  "entries": [
+    {
+      "id": "fixture_1",
+      "kind": "expense",
+      "amountMinor": 1500,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "盖饭",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "i",
+      "kind": "income",
+      "amountMinor": 800000,
+      "currency": "CNY",
+      "categoryId": "salary",
+      "title": "盖饭",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "r",
+      "kind": "refund",
+      "amountMinor": 1200,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "盖饭",
+      "occurredOn": "2026-10-11",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "fixture_1",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "t",
+      "kind": "transfer",
+      "amountMinor": 50000,
+      "currency": "CNY",
+      "categoryId": "transfer",
+      "title": "盖饭",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "d",
+      "kind": "debt",
+      "amountMinor": 90000,
+      "currency": "CNY",
+      "categoryId": "debt",
+      "title": "盖饭",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "old",
+      "kind": "expense",
+      "amountMinor": 20000,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "盖饭",
+      "occurredOn": "2026-09-30",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "pet",
+      "kind": "expense",
+      "amountMinor": 2900,
+      "currency": "CNY",
+      "categoryId": "custom_pet",
+      "title": "猫粮",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "deleted",
+      "kind": "expense",
+      "amountMinor": 1500,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "盖饭",
+      "occurredOn": "2026-10-10",
+      "timeHint": "中午",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 2000
+    }
+  ],
+  "amounts": [
+    {
+      "text": "0.29",
+      "expected": 29
+    },
+    {
+      "text": "15.5",
+      "expected": 1550
+    },
+    {
+      "text": "00015.05",
+      "expected": 1505
+    },
+    {
+      "text": "9999999999.99",
+      "expected": 999999999999
+    },
+    {
+      "text": "0",
+      "expected": -1
+    },
+    {
+      "text": "-1",
+      "expected": -1
+    },
+    {
+      "text": "15.001",
+      "expected": -1
+    },
+    {
+      "text": "1e5",
+      "expected": -1
+    },
+    {
+      "text": "NaN",
+      "expected": -1
+    },
+    {
+      "text": ".5",
+      "expected": -1
+    },
+    {
+      "text": "15元",
+      "expected": -1
+    },
+    {
+      "text": "",
+      "expected": -1
+    }
+  ],
+  "evidence": [
+    {
+      "text": "0.29元",
+      "expected": 29
+    },
+    {
+      "text": "15元",
+      "expected": 1500
+    },
+    {
+      "text": "十五元",
+      "expected": 1500
+    },
+    {
+      "text": "15块5毛",
+      "expected": 1550
+    },
+    {
+      "text": "十五元五角六分",
+      "expected": 1556
+    },
+    {
+      "text": "两百零八元",
+      "expected": 20800
+    },
+    {
+      "text": "一千二百三十四点五六元",
+      "expected": 123456
+    },
+    {
+      "text": "一万二千元",
+      "expected": 1200000
+    },
+    {
+      "text": "人民币12.34元",
+      "expected": 1234
+    },
+    {
+      "text": "十元半",
+      "expected": 1050
+    },
+    {
+      "text": "十五块五",
+      "expected": 1550
+    },
+    {
+      "text": "1.2万元",
+      "expected": 1200000
+    },
+    {
+      "text": "1.234万元",
+      "expected": 1234000
+    },
+    {
+      "text": "0元",
+      "expected": null
+    },
+    {
+      "text": "-15元",
+      "expected": null
+    },
+    {
+      "text": "15.555元",
+      "expected": null
+    },
+    {
+      "text": "两千五元",
+      "expected": null
+    },
+    {
+      "text": "一百二元",
+      "expected": null
+    },
+    {
+      "text": "大概十五到二十元",
+      "expected": null
+    },
+    {
+      "text": "15美元",
+      "expected": null
+    },
+    {
+      "text": "1e4元",
+      "expected": null
+    },
+    {
+      "text": "NaN",
+      "expected": null
+    },
+    {
+      "text": "",
+      "expected": null
+    }
+  ],
+  "periods": [
+    {
+      "mode": "week",
+      "reference": "2026-10-10",
+      "offset": -1,
+      "expected": {
+        "start": "2026-09-28",
+        "end": "2026-10-04",
+        "label": "9.28 — 10.4",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2026-10-10",
+      "offset": 0,
+      "expected": {
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "label": "10.5 — 10.11",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2026-10-10",
+      "offset": 1,
+      "expected": {
+        "start": "2026-10-12",
+        "end": "2026-10-18",
+        "label": "10.12 — 10.18",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2027-01-01",
+      "offset": -1,
+      "expected": {
+        "start": "2026-12-21",
+        "end": "2026-12-27",
+        "label": "12.21 — 12.27",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2027-01-01",
+      "offset": 0,
+      "expected": {
+        "start": "2026-12-28",
+        "end": "2027-01-03",
+        "label": "12.28 — 1.3",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2027-01-01",
+      "offset": 1,
+      "expected": {
+        "start": "2027-01-04",
+        "end": "2027-01-10",
+        "label": "1.4 — 1.10",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2024-03-31",
+      "offset": -1,
+      "expected": {
+        "start": "2024-03-18",
+        "end": "2024-03-24",
+        "label": "3.18 — 3.24",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2024-03-31",
+      "offset": 0,
+      "expected": {
+        "start": "2024-03-25",
+        "end": "2024-03-31",
+        "label": "3.25 — 3.31",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "week",
+      "reference": "2024-03-31",
+      "offset": 1,
+      "expected": {
+        "start": "2024-04-01",
+        "end": "2024-04-07",
+        "label": "4.1 — 4.7",
+        "mode": "week"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2026-10-10",
+      "offset": -1,
+      "expected": {
+        "start": "2026-09-01",
+        "end": "2026-09-30",
+        "label": "2026年9月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2026-10-10",
+      "offset": 0,
+      "expected": {
+        "start": "2026-10-01",
+        "end": "2026-10-31",
+        "label": "2026年10月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2026-10-10",
+      "offset": 1,
+      "expected": {
+        "start": "2026-11-01",
+        "end": "2026-11-30",
+        "label": "2026年11月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2027-01-01",
+      "offset": -1,
+      "expected": {
+        "start": "2026-12-01",
+        "end": "2026-12-31",
+        "label": "2026年12月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2027-01-01",
+      "offset": 0,
+      "expected": {
+        "start": "2027-01-01",
+        "end": "2027-01-31",
+        "label": "2027年1月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2027-01-01",
+      "offset": 1,
+      "expected": {
+        "start": "2027-02-01",
+        "end": "2027-02-28",
+        "label": "2027年2月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2024-03-31",
+      "offset": -1,
+      "expected": {
+        "start": "2024-02-01",
+        "end": "2024-02-29",
+        "label": "2024年2月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2024-03-31",
+      "offset": 0,
+      "expected": {
+        "start": "2024-03-01",
+        "end": "2024-03-31",
+        "label": "2024年3月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "month",
+      "reference": "2024-03-31",
+      "offset": 1,
+      "expected": {
+        "start": "2024-04-01",
+        "end": "2024-04-30",
+        "label": "2024年4月",
+        "mode": "month"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2026-10-10",
+      "offset": -1,
+      "expected": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "label": "2025年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2026-10-10",
+      "offset": 0,
+      "expected": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "label": "2026年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2026-10-10",
+      "offset": 1,
+      "expected": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "label": "2027年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2027-01-01",
+      "offset": -1,
+      "expected": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "label": "2026年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2027-01-01",
+      "offset": 0,
+      "expected": {
+        "start": "2027-01-01",
+        "end": "2027-12-31",
+        "label": "2027年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2027-01-01",
+      "offset": 1,
+      "expected": {
+        "start": "2028-01-01",
+        "end": "2028-12-31",
+        "label": "2028年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2024-03-31",
+      "offset": -1,
+      "expected": {
+        "start": "2023-01-01",
+        "end": "2023-12-31",
+        "label": "2023年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2024-03-31",
+      "offset": 0,
+      "expected": {
+        "start": "2024-01-01",
+        "end": "2024-12-31",
+        "label": "2024年",
+        "mode": "year"
+      }
+    },
+    {
+      "mode": "year",
+      "reference": "2024-03-31",
+      "offset": 1,
+      "expected": {
+        "start": "2025-01-01",
+        "end": "2025-12-31",
+        "label": "2025年",
+        "mode": "year"
+      }
+    }
+  ],
+  "statistics": [
+    {
+      "period": {
+        "start": "2026-10-05",
+        "end": "2026-10-11",
+        "label": "10.5 — 10.11",
+        "mode": "week"
+      },
+      "summary": {
+        "expense": 4400,
+        "income": 800000,
+        "refund": 1200,
+        "netExpense": 3200,
+        "balance": 796800,
+        "count": 6
+      },
+      "trends": [
+        {
+          "date": "2026-10-05",
+          "label": "一",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-06",
+          "label": "二",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-07",
+          "label": "三",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-08",
+          "label": "四",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-09",
+          "label": "五",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-10",
+          "label": "六",
+          "expense": 4400,
+          "income": 800000,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-11",
+          "label": "日",
+          "expense": 0,
+          "income": 0,
+          "refund": 1200
+        }
+      ],
+      "rankings": [
+        {
+          "category": {
+            "id": "custom_pet",
+            "name": "宠物",
+            "icon": "dots",
+            "color": "#63806A",
+            "background": "#E5EEE4"
+          },
+          "amount": 2900,
+          "ratio": 0.6590909090909091,
+          "count": 1
+        },
+        {
+          "category": {
+            "id": "food",
+            "name": "餐饮",
+            "icon": "food",
+            "color": "#547347",
+            "background": "#EAF0DD"
+          },
+          "amount": 1500,
+          "ratio": 0.3409090909090909,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-31",
+        "label": "2026年10月",
+        "mode": "month"
+      },
+      "summary": {
+        "expense": 4400,
+        "income": 800000,
+        "refund": 1200,
+        "netExpense": 3200,
+        "balance": 796800,
+        "count": 6
+      },
+      "trends": [
+        {
+          "date": "2026-10-01",
+          "label": "1",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-02",
+          "label": "2",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-03",
+          "label": "3",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-04",
+          "label": "4",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-05",
+          "label": "5",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-06",
+          "label": "6",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-07",
+          "label": "7",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-08",
+          "label": "8",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-09",
+          "label": "9",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-10",
+          "label": "10",
+          "expense": 4400,
+          "income": 800000,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-11",
+          "label": "11",
+          "expense": 0,
+          "income": 0,
+          "refund": 1200
+        },
+        {
+          "date": "2026-10-12",
+          "label": "12",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-13",
+          "label": "13",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-14",
+          "label": "14",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-15",
+          "label": "15",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-16",
+          "label": "16",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-17",
+          "label": "17",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-18",
+          "label": "18",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-19",
+          "label": "19",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-20",
+          "label": "20",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-21",
+          "label": "21",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-22",
+          "label": "22",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-23",
+          "label": "23",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-24",
+          "label": "24",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-25",
+          "label": "25",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-26",
+          "label": "26",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-27",
+          "label": "27",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-28",
+          "label": "28",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-29",
+          "label": "29",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-30",
+          "label": "30",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-31",
+          "label": "31",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        }
+      ],
+      "rankings": [
+        {
+          "category": {
+            "id": "custom_pet",
+            "name": "宠物",
+            "icon": "dots",
+            "color": "#63806A",
+            "background": "#E5EEE4"
+          },
+          "amount": 2900,
+          "ratio": 0.6590909090909091,
+          "count": 1
+        },
+        {
+          "category": {
+            "id": "food",
+            "name": "餐饮",
+            "icon": "food",
+            "color": "#547347",
+            "background": "#EAF0DD"
+          },
+          "amount": 1500,
+          "ratio": 0.3409090909090909,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "period": {
+        "start": "2026-01-01",
+        "end": "2026-12-31",
+        "label": "2026年",
+        "mode": "year"
+      },
+      "summary": {
+        "expense": 24400,
+        "income": 800000,
+        "refund": 1200,
+        "netExpense": 23200,
+        "balance": 776800,
+        "count": 7
+      },
+      "trends": [
+        {
+          "date": "2026-01-01",
+          "label": "1月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-02-01",
+          "label": "2月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-03-01",
+          "label": "3月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-04-01",
+          "label": "4月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-05-01",
+          "label": "5月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-06-01",
+          "label": "6月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-07-01",
+          "label": "7月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-08-01",
+          "label": "8月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-09-01",
+          "label": "9月",
+          "expense": 20000,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-10-01",
+          "label": "10月",
+          "expense": 4400,
+          "income": 800000,
+          "refund": 1200
+        },
+        {
+          "date": "2026-11-01",
+          "label": "11月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        },
+        {
+          "date": "2026-12-01",
+          "label": "12月",
+          "expense": 0,
+          "income": 0,
+          "refund": 0
+        }
+      ],
+      "rankings": [
+        {
+          "category": {
+            "id": "food",
+            "name": "餐饮",
+            "icon": "food",
+            "color": "#547347",
+            "background": "#EAF0DD"
+          },
+          "amount": 21500,
+          "ratio": 0.8811475409836066,
+          "count": 2
+        },
+        {
+          "category": {
+            "id": "custom_pet",
+            "name": "宠物",
+            "icon": "dots",
+            "color": "#63806A",
+            "background": "#E5EEE4"
+          },
+          "amount": 2900,
+          "ratio": 0.11885245901639344,
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "recognitionCases": [
+    {
+      "name": "ordinary",
+      "text": "中午吃盖饭15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "中午吃盖饭15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "中午",
+            "note": "",
+            "issues": []
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "correction",
+      "text": "午餐15元，不对是13元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "13元",
+            "amount_yuan": "13",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元，不对是13元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1300,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": []
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "substring",
+      "text": "午餐115元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐115元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "没有明确的金额，请手动填写"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "negative",
+      "text": "调整-15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "调整-15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "没有明确的金额，请手动填写"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "missing",
+      "text": "买了一本书",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": null,
+            "amount_yuan": null,
+            "category_id": "education",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "买了一本书",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": null,
+            "category_id": "education",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "没有明确的金额，请手动填写"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "foreign",
+      "text": "午餐15美元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_text": "15",
+            "amount_yuan": "15",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15美元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "当前仅支持人民币，外币金额请自行核对换算后填写"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "wrongAmount",
+      "text": "午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "1500",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额待核对，请手动填写"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "yesterday",
+      "text": "昨天午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2025-01-01",
+            "date_text": "昨天",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "昨天午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-09",
+            "time_hint": "",
+            "note": "",
+            "issues": []
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "invalidDate",
+      "text": "2月30日午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-02-30",
+            "date_text": "2月30日",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "2月30日午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "日期未能确定，暂用录入日期"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "category",
+      "text": "午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "income",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元",
+        "drafts": [
+          {
+            "kind": "income",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "other",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "分类已调整，请确认"
+            ]
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "custom",
+      "text": "猫粮15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "custom_pet",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "猫粮15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "custom_pet",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": []
+          }
+        ],
+        "issues": []
+      }
+    }
+  ],
+  "backup": "{\n  \"format\": \"yiyu-ledger\",\n  \"version\": 3,\n  \"exportedAt\": \"2026-10-11T00:00:00.000Z\",\n  \"entries\": [\n    {\n      \"id\": \"fixture_1\",\n      \"kind\": \"expense\",\n      \"amountMinor\": 1500,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"food\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-10-10\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"i\",\n      \"kind\": \"income\",\n      \"amountMinor\": 800000,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"salary\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-10-10\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"r\",\n      \"kind\": \"refund\",\n      \"amountMinor\": 1200,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"food\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-10-11\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"fixture_1\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"t\",\n      \"kind\": \"transfer\",\n      \"amountMinor\": 50000,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"transfer\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-10-10\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"d\",\n      \"kind\": \"debt\",\n      \"amountMinor\": 90000,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"debt\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-10-10\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"old\",\n      \"kind\": \"expense\",\n      \"amountMinor\": 20000,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"food\",\n      \"title\": \"盖饭\",\n      \"occurredOn\": \"2026-09-30\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    },\n    {\n      \"id\": \"pet\",\n      \"kind\": \"expense\",\n      \"amountMinor\": 2900,\n      \"currency\": \"CNY\",\n      \"categoryId\": \"custom_pet\",\n      \"title\": \"猫粮\",\n      \"occurredOn\": \"2026-10-10\",\n      \"timeHint\": \"中午\",\n      \"note\": \"\",\n      \"source\": \"manual\",\n      \"groupId\": \"\",\n      \"linkedEntryId\": \"\",\n      \"createdAt\": 1000,\n      \"updatedAt\": 1000,\n      \"deletedAt\": 0\n    }\n  ],\n  \"categories\": [\n    {\n      \"id\": \"custom_pet\",\n      \"name\": \"宠物\",\n      \"kind\": \"expense\"\n    },\n    {\n      \"id\": \"custom_work\",\n      \"name\": \"咨询\",\n      \"kind\": \"income\"\n    }\n  ],\n  \"monthlyBudgets\": []\n}",
+  "csv": "﻿日期,类型,分类,名称,金额（元）,币种,备注\r\n\"2026-10-11\",\"退款\",\"餐饮\",\"盖饭\",\"12.00\",\"CNY\",\"\"\r\n\"2026-10-10\",\"支出\",\"餐饮\",\"盖饭\",\"15.00\",\"CNY\",\"\"\r\n\"2026-10-10\",\"收入\",\"工资\",\"盖饭\",\"8000.00\",\"CNY\",\"\"\r\n\"2026-10-10\",\"转账\",\"转账\",\"盖饭\",\"500.00\",\"CNY\",\"\"\r\n\"2026-10-10\",\"往来\",\"往来\",\"盖饭\",\"900.00\",\"CNY\",\"\"\r\n\"2026-10-10\",\"支出\",\"宠物\",\"猫粮\",\"29.00\",\"CNY\",\"\"\r\n\"2026-09-30\",\"支出\",\"餐饮\",\"盖饭\",\"200.00\",\"CNY\",\"\"",
+  "suggestions": [
+    "custom_pet",
+    "shopping",
+    "food"
+  ]
+}

@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Yiyu" parent="Theme.Yiyu.Base">
+        <item name="android:windowLightNavigationBar">true</item>
+    </style>
+</resources>

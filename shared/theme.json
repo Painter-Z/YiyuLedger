@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "colors": {
+    "forest": "#234236",
+    "heroAccent": "#365749",
+    "heroLine": "#456154",
+    "sage": "#E1EBD3",
+    "sageBorder": "#CDDCBA",
+    "background": "#F7F8F3",
+    "card": "#FEFEFB",
+    "field": "#EFF2EA",
+    "ink": "#30483C",
+    "muted": "#64735F",
+    "outline": "#DCE3D5",
+    "onForest": "#F7FAF3",
+    "onForestMuted": "#CDDBC5",
+    "expense": "#476B53",
+    "income": "#906B40",
+    "refund": "#507580",
+    "error": "#AD594C"
+  },
+  "platformOverrides": {
+    "android": {
+      "background": "#F5F5EF",
+      "card": "#FEFEFA",
+      "field": "#E9EEE0"
+    },
+    "harmony": {
+      "background": "#F5F5EF",
+      "card": "#FEFEFA",
+      "field": "#E9EEE0"
+    }
+  }
+}

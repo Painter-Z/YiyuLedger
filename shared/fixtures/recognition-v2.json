@@ -1,0 +1,2061 @@
+{
+  "version": 2,
+  "generatedFrom": "Shipped Harmony 0.7.0; reported food example and synthetic data only",
+  "custom": [
+    {
+      "id": "custom_pet",
+      "name": "宠物",
+      "kind": "expense"
+    },
+    {
+      "id": "custom_work",
+      "name": "咨询",
+      "kind": "income"
+    }
+  ],
+  "evidence": [
+    {
+      "text": "0.29元",
+      "expected": 29
+    },
+    {
+      "text": "15元",
+      "expected": 1500
+    },
+    {
+      "text": "十五元",
+      "expected": 1500
+    },
+    {
+      "text": "15块5毛",
+      "expected": 1550
+    },
+    {
+      "text": "十五元五角六分",
+      "expected": 1556
+    },
+    {
+      "text": "两百零八元",
+      "expected": 20800
+    },
+    {
+      "text": "一千二百三十四点五六元",
+      "expected": 123456
+    },
+    {
+      "text": "一万二千元",
+      "expected": 1200000
+    },
+    {
+      "text": "人民币12.34元",
+      "expected": 1234
+    },
+    {
+      "text": "十元半",
+      "expected": 1050
+    },
+    {
+      "text": "十五块五",
+      "expected": 1550
+    },
+    {
+      "text": "1.2万元",
+      "expected": 1200000
+    },
+    {
+      "text": "1.234万元",
+      "expected": 1234000
+    },
+    {
+      "text": "0元",
+      "expected": null
+    },
+    {
+      "text": "-15元",
+      "expected": null
+    },
+    {
+      "text": "15.555元",
+      "expected": null
+    },
+    {
+      "text": "两千五元",
+      "expected": null
+    },
+    {
+      "text": "一百二元",
+      "expected": null
+    },
+    {
+      "text": "大概十五到二十元",
+      "expected": null
+    },
+    {
+      "text": "15美元",
+      "expected": null
+    },
+    {
+      "text": "1e4元",
+      "expected": null
+    },
+    {
+      "text": "NaN",
+      "expected": null
+    },
+    {
+      "text": "",
+      "expected": null
+    },
+    {
+      "text": "十一块八毛九",
+      "expected": 1189
+    },
+    {
+      "text": "11块8毛9",
+      "expected": 1189
+    },
+    {
+      "text": "十一元八角九",
+      "expected": 1189
+    },
+    {
+      "text": "11块八毛9",
+      "expected": 1189
+    },
+    {
+      "text": "两块五",
+      "expected": 250
+    },
+    {
+      "text": "十一块零毛九分",
+      "expected": 1109
+    },
+    {
+      "text": "十一块零毛九",
+      "expected": 1109
+    },
+    {
+      "text": "八毛九",
+      "expected": 89
+    },
+    {
+      "text": "8角9分",
+      "expected": 89
+    },
+    {
+      "text": "五毛",
+      "expected": 50
+    },
+    {
+      "text": "九分",
+      "expected": 9
+    },
+    {
+      "text": "零元八角九分",
+      "expected": 89
+    },
+    {
+      "text": "十一元零九分",
+      "expected": 1109
+    },
+    {
+      "text": "0元05分",
+      "expected": 5
+    },
+    {
+      "text": "十一二块",
+      "expected": null
+    },
+    {
+      "text": "十一块八九",
+      "expected": null
+    },
+    {
+      "text": "十一块八毛九厘",
+      "expected": null
+    },
+    {
+      "text": "十一块八毛九分一厘",
+      "expected": null
+    },
+    {
+      "text": "零毛零",
+      "expected": null
+    },
+    {
+      "text": "1元10角",
+      "expected": null
+    },
+    {
+      "text": "十一块八毛九分五",
+      "expected": null
+    }
+  ],
+  "cases": [
+    {
+      "name": "previous-ordinary",
+      "text": "中午吃盖饭15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "中午吃盖饭15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "中午吃盖饭15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "中午",
+            "note": "",
+            "issues": [],
+            "source_text": "中午吃盖饭15元",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-correction",
+      "text": "午餐15元，不对是13元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "午餐15元，不对是13元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "13元",
+            "amount_yuan": "13",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元，不对是13元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": 1300,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称"
+            ],
+            "source_text": "午餐15元，不对是13元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-substring",
+      "text": "午餐115元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "午餐115元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐115元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "午餐115元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-negative",
+      "text": "调整-15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "调整-15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "调整-15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "调整-15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-missing",
+      "text": "买了一本书",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "买了一本书",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": null,
+            "amount_yuan": null,
+            "category_id": "education",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "买了一本书",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "education",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "没有明确的金额，请手动填写"
+            ],
+            "source_text": "买了一本书",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-foreign",
+      "text": "午餐15美元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "午餐15美元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "amount_text": "15",
+            "amount_yuan": "15",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15美元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "当前仅支持人民币，外币金额请自行核对换算后填写"
+            ],
+            "source_text": "午餐15美元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-wrongAmount",
+      "text": "午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "午餐15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "1500",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "金额待核对，请手动填写"
+            ],
+            "source_text": "午餐15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-yesterday",
+      "text": "昨天午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "昨天午餐15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2025-01-01",
+            "date_text": "昨天",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "昨天午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-09",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称"
+            ],
+            "source_text": "昨天午餐15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-invalidDate",
+      "text": "2月30日午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "2月30日午餐15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-02-30",
+            "date_text": "2月30日",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "2月30日午餐15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": 1500,
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "日期未能确定，暂用录入日期"
+            ],
+            "source_text": "2月30日午餐15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-category",
+      "text": "午餐15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "午餐15元",
+            "title_text": "盖饭",
+            "kind": "income",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "food",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "午餐15元",
+        "drafts": [
+          {
+            "kind": "income",
+            "title": "",
+            "amount_minor": 1500,
+            "category_id": "other",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称",
+              "分类已调整，请确认"
+            ],
+            "source_text": "午餐15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "previous-custom",
+      "text": "猫粮15元",
+      "reference": "2026-10-10",
+      "raw": {
+        "entries": [
+          {
+            "source_text": "猫粮15元",
+            "title_text": "盖饭",
+            "kind": "expense",
+            "title": "盖饭",
+            "currency": "CNY",
+            "amount_text": "15元",
+            "amount_yuan": "15.00",
+            "category_id": "custom_pet",
+            "occurred_on": "2026-10-10",
+            "date_text": "",
+            "time_hint": "中午",
+            "note": ""
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "猫粮15元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": 1500,
+            "category_id": "custom_pet",
+            "occurred_on": "2026-10-10",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称"
+            ],
+            "source_text": "猫粮15元",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "reported-meal-and-porridge",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "今天我吃了保障餐，花了八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "copied-title-own-anchor",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "粥",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "今天我吃了保障餐，花了八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称已按对应原话校正，请确认"
+            ],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "copied-title-and-anchor",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "今天我吃了保障餐，花了八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "名称缺少这笔原话的依据，请补充名称"
+            ],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "swapped-amounts",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "今天我吃了保障餐，花了八块",
+            "review_required": true
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "reverse-model-order",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "今天我吃了保障餐，花了八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "overwide-quotes",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐，花了八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "粥，花了两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "unsafe-overlap",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这笔账单的原话对应不明确，请核对名称和金额",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          },
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这笔账单的原话对应不明确，请核对名称和金额",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "reused-source",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "今天我吃了保障餐，花了八块",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这笔账单的原话对应不明确，请核对名称和金额",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          },
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这笔账单的原话对应不明确，请核对名称和金额",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "same-name-19",
+      "text": "保障餐八块。保障餐八块",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐八块。保障餐八块",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "same-name-20",
+      "text": "早上保障餐八块，晚上保障餐八块",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "早上保障餐八块，晚上保障餐八块",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "same-name-overwide",
+      "text": "早上保障餐八块，晚上保障餐八块",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "早上保障餐八块，晚上保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "早上保障餐八块，晚上保障餐八块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "早上保障餐八块，晚上保障餐八块",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 800,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "spoken-cents-22",
+      "text": "保障餐十一块八毛九",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐十一块八毛九",
+            "amount_text": "十一块八毛九",
+            "amount_yuan": "11.89",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐十一块八毛九",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 1189,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐十一块八毛九",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "spoken-cents-23",
+      "text": "保障餐11块8毛9",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐11块8毛9",
+            "amount_text": "11块8毛9",
+            "amount_yuan": "11.89",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐11块8毛9",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 1189,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐11块8毛9",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "spoken-cents-24",
+      "text": "保障餐十一元八角九",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐十一元八角九",
+            "amount_text": "十一元八角九",
+            "amount_yuan": "11.89",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐十一元八角九",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 1189,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐十一元八角九",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "truncated-or-negative-25",
+      "text": "保障餐十一块",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐十一块",
+            "amount_text": "一块",
+            "amount_yuan": "1",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐十一块",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "保障餐十一块",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "truncated-or-negative-26",
+      "text": "保障餐十一块八毛九",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐十一块八毛九",
+            "amount_text": "十一块",
+            "amount_yuan": "11",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐十一块八毛九",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "保障餐十一块八毛九",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "truncated-or-negative-27",
+      "text": "保障餐十一块八毛九",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐十一块八毛九",
+            "amount_text": "八毛九",
+            "amount_yuan": "0.89",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐十一块八毛九",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "保障餐十一块八毛九",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "truncated-or-negative-28",
+      "text": "保障餐负十一块",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐负十一块",
+            "amount_text": "十一块",
+            "amount_yuan": "11",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐负十一块",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "保障餐负十一块",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "oral-correction-wrong",
+      "text": "保障餐八块，不对应该是七块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块，不对应该是七块五",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐八块，不对应该是七块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "保障餐八块，不对应该是七块五",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "oral-correction-final",
+      "text": "保障餐八块，不对应该是七块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "保障餐八块，不对应该是七块五",
+            "amount_text": "七块五",
+            "amount_yuan": "7.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐八块，不对应该是七块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐",
+            "amount_minor": 750,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐八块，不对应该是七块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "foreign-overwide-31",
+      "text": "用美元买书十五元，喝粥两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "书",
+            "title_text": "书",
+            "source_text": "用美元买书十五元，喝粥两块五",
+            "amount_text": "十五",
+            "amount_yuan": "15",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "用美元买书十五元，喝粥两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "用美元买书十五元，喝粥两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "书",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "当前仅支持人民币，外币金额请自行核对换算后填写"
+            ],
+            "source_text": "书十五",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "粥两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "foreign-overwide-32",
+      "text": "买书十五美元，喝粥两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "书",
+            "title_text": "书",
+            "source_text": "买书十五美元，喝粥两块五",
+            "amount_text": "十五",
+            "amount_yuan": "15",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "买书十五美元，喝粥两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "买书十五美元，喝粥两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "书",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "当前仅支持人民币，外币金额请自行核对换算后填写"
+            ],
+            "source_text": "书十五",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "粥两块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "foreign-next-transaction",
+      "text": "粥两块五，书十五美元",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "粥两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "other",
+            "title": "书",
+            "title_text": "书",
+            "source_text": "书十五美元",
+            "amount_text": "十五",
+            "amount_yuan": "15",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "粥两块五，书十五美元",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "粥两块五",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "书",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "当前仅支持人民币，外币金额请自行核对换算后填写"
+            ],
+            "source_text": "书十五美元",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "missing-amount",
+      "text": "今天买了一碗粥，价格忘了",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "今天买了一碗粥，价格忘了",
+            "amount_text": null,
+            "amount_yuan": null,
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天买了一碗粥，价格忘了",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "没有明确的金额，请手动填写"
+            ],
+            "source_text": "今天买了一碗粥，价格忘了",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "combined-payment",
+      "text": "保障餐和粥一共花了十块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐和粥",
+            "title_text": "保障餐和粥",
+            "source_text": "保障餐和粥一共花了十块五",
+            "amount_text": "十块五",
+            "amount_yuan": "10.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "保障餐和粥一共花了十块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "保障餐和粥",
+            "amount_minor": 1050,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "保障餐和粥一共花了十块五",
+            "review_required": false
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "summary-not-a-payment",
+      "text": "总计十块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "总计",
+            "title_text": "总计",
+            "source_text": "总计十块五",
+            "amount_text": "十块五",
+            "amount_yuan": "10.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "总计十块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这段原话可能是合计或找零，请核对是否需要记账",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "nonliteral-source",
+      "text": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": [
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "保障餐",
+            "title_text": "保障餐",
+            "source_text": "今天我吃了保障餐，花了8块",
+            "amount_text": "八块",
+            "amount_yuan": "8.00",
+            "category_id": "food"
+          },
+          {
+            "kind": "expense",
+            "currency": "CNY",
+            "title": "粥",
+            "title_text": "粥",
+            "source_text": "又喝了一碗粥，花了两块五",
+            "amount_text": "两块五",
+            "amount_yuan": "2.50",
+            "category_id": "food"
+          }
+        ]
+      },
+      "expected": {
+        "transcript": "今天我吃了保障餐，花了八块。又喝了一碗粥，花了两块五",
+        "drafts": [
+          {
+            "kind": "expense",
+            "title": "粥",
+            "amount_minor": 250,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [],
+            "source_text": "又喝了一碗粥，花了两块五",
+            "review_required": false
+          },
+          {
+            "kind": "expense",
+            "title": "",
+            "amount_minor": null,
+            "category_id": "food",
+            "occurred_on": "2026-10-18",
+            "time_hint": "",
+            "note": "",
+            "issues": [
+              "这笔账单的原话对应不明确，请核对名称和金额",
+              "金额与这笔原话不一致，请核对填写"
+            ],
+            "source_text": "",
+            "review_required": true
+          }
+        ],
+        "issues": []
+      }
+    },
+    {
+      "name": "no-ledger-content",
+      "text": "今天天气不错",
+      "reference": "2026-10-18",
+      "raw": {
+        "entries": []
+      },
+      "expected": {
+        "transcript": "今天天气不错",
+        "drafts": [],
+        "issues": [
+          "没有识别到可记账内容，请修改描述或手动记账"
+        ]
+      }
+    }
+  ]
+}

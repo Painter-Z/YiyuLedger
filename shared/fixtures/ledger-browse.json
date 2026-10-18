@@ -1,0 +1,1198 @@
+{
+  "generatedFrom": "Harmony 0.6.1 LedgerBrowse; synthetic data",
+  "entries": [
+    {
+      "id": "today_food",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "today_print",
+      "kind": "expense",
+      "amountMinor": 500,
+      "currency": "CNY",
+      "categoryId": "other",
+      "title": "打印",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "today_income",
+      "kind": "income",
+      "amountMinor": 60000,
+      "currency": "CNY",
+      "categoryId": "salary",
+      "title": "工资",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "today_refund",
+      "kind": "refund",
+      "amountMinor": 250,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐退款",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "today_transfer",
+      "kind": "transfer",
+      "amountMinor": 20000,
+      "currency": "CNY",
+      "categoryId": "transfer",
+      "title": "转账",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "today_debt",
+      "kind": "debt",
+      "amountMinor": 20000,
+      "currency": "CNY",
+      "categoryId": "debt",
+      "title": "借款",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "yesterday",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-13",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "day_before",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-12",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "earlier_month",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-01",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "history",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2025-08-01",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "future",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-15",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    },
+    {
+      "id": "deleted",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "CNY",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 2000
+    },
+    {
+      "id": "foreign",
+      "kind": "expense",
+      "amountMinor": 750,
+      "currency": "USD",
+      "categoryId": "food",
+      "title": "早餐",
+      "occurredOn": "2026-10-14",
+      "timeHint": "",
+      "note": "",
+      "source": "manual",
+      "groupId": "",
+      "linkedEntryId": "",
+      "createdAt": 1000,
+      "updatedAt": 1000,
+      "deletedAt": 0
+    }
+  ],
+  "cases": [
+    {
+      "name": "recent",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_food",
+          "today_print",
+          "today_income",
+          "today_refund",
+          "today_transfer",
+          "today_debt",
+          "yesterday",
+          "day_before"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_print",
+              "today_income",
+              "today_refund",
+              "today_transfer",
+              "today_debt"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "search_history",
+      "options": {
+        "today": "2026-10-14",
+        "search": "早餐",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "all",
+          "start": "",
+          "end": "",
+          "label": "全部日期 · 搜索结果"
+        },
+        "entryIds": [
+          "future",
+          "today_food",
+          "today_refund",
+          "yesterday",
+          "day_before",
+          "earlier_month",
+          "history"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750,
+          "2026-10-01": 750,
+          "2025-08-01": 750,
+          "2026-10-15": 750
+        },
+        "emptyDay": "",
+        "days": [
+          {
+            "date": "2026-10-15",
+            "expenseMinor": 750,
+            "label": "2026-10-15",
+            "entryIds": [
+              "future"
+            ]
+          },
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_refund"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          },
+          {
+            "date": "2026-10-01",
+            "expenseMinor": 750,
+            "label": "2026-10-01",
+            "entryIds": [
+              "earlier_month"
+            ]
+          },
+          {
+            "date": "2025-08-01",
+            "expenseMinor": 750,
+            "label": "2025-08-01",
+            "entryIds": [
+              "history"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "clear_search",
+      "options": {
+        "today": "2026-10-14",
+        "search": "  ",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_food",
+          "today_print",
+          "today_income",
+          "today_refund",
+          "today_transfer",
+          "today_debt",
+          "yesterday",
+          "day_before"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_print",
+              "today_income",
+              "today_refund",
+              "today_transfer",
+              "today_debt"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "no_history_match",
+      "options": {
+        "today": "2026-10-14",
+        "search": "不存在",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "all",
+          "start": "",
+          "end": "",
+          "label": "全部日期 · 搜索结果"
+        },
+        "entryIds": [],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750,
+          "2026-10-01": 750,
+          "2025-08-01": 750,
+          "2026-10-15": 750
+        },
+        "emptyDay": "",
+        "days": []
+      }
+    },
+    {
+      "name": "only_income",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "income",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_income"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_income"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "only_refund",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "refund",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_refund"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_refund"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "only_transfer",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "transfer",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_transfer"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_transfer"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "only_debt",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "debt",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_debt"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_debt"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "food_filter",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "food",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-12",
+          "end": "2026-10-14",
+          "label": "最近三天 · 10.12—10.14"
+        },
+        "entryIds": [
+          "today_food",
+          "today_refund",
+          "yesterday",
+          "day_before"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_refund"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty_day",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "2026-01-01",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "day",
+          "start": "2026-01-01",
+          "end": "2026-01-01",
+          "label": "查看：2026-01-01"
+        },
+        "entryIds": [],
+        "expenseByDay": {},
+        "emptyDay": "2026-01-01",
+        "days": [
+          {
+            "date": "2026-01-01",
+            "expenseMinor": 0,
+            "label": "2026-01-01",
+            "entryIds": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "empty_day_search",
+      "options": {
+        "today": "2026-10-14",
+        "search": "不存在",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "2026-10-14",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "day",
+          "start": "2026-10-14",
+          "end": "2026-10-14",
+          "label": "查看：2026-10-14"
+        },
+        "entryIds": [],
+        "expenseByDay": {
+          "2026-10-14": 1250
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "selected_day",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "2025-08-01",
+        "rangeStart": "2026-10-01",
+        "rangeEnd": "2026-10-31"
+      },
+      "expected": {
+        "scope": {
+          "mode": "day",
+          "start": "2025-08-01",
+          "end": "2025-08-01",
+          "label": "查看：2025-08-01"
+        },
+        "entryIds": [
+          "history"
+        ],
+        "expenseByDay": {
+          "2025-08-01": 750
+        },
+        "emptyDay": "2025-08-01",
+        "days": [
+          {
+            "date": "2025-08-01",
+            "expenseMinor": 750,
+            "label": "2025-08-01",
+            "entryIds": [
+              "history"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "selected_income",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "income",
+        "categoryId": "",
+        "dateFilter": "2026-10-14",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "day",
+          "start": "2026-10-14",
+          "end": "2026-10-14",
+          "label": "查看：2026-10-14"
+        },
+        "entryIds": [
+          "today_income"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250
+        },
+        "emptyDay": "2026-10-14",
+        "days": [
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_income"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "month",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "2026-10",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "month",
+          "start": "2026-10-01",
+          "end": "2026-10-31",
+          "label": "查看：2026年10月"
+        },
+        "entryIds": [
+          "future",
+          "today_food",
+          "today_print",
+          "today_income",
+          "today_refund",
+          "today_transfer",
+          "today_debt",
+          "yesterday",
+          "day_before",
+          "earlier_month"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750,
+          "2026-10-01": 750,
+          "2026-10-15": 750
+        },
+        "emptyDay": "",
+        "days": [
+          {
+            "date": "2026-10-15",
+            "expenseMinor": 750,
+            "label": "2026-10-15",
+            "entryIds": [
+              "future"
+            ]
+          },
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_print",
+              "today_income",
+              "today_refund",
+              "today_transfer",
+              "today_debt"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          },
+          {
+            "date": "2026-10-01",
+            "expenseMinor": 750,
+            "label": "2026-10-01",
+            "entryIds": [
+              "earlier_month"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "stats_category_period",
+      "options": {
+        "today": "2026-10-14",
+        "search": "",
+        "kind": "all",
+        "categoryId": "food",
+        "dateFilter": "",
+        "rangeStart": "2026-10-01",
+        "rangeEnd": "2026-10-31"
+      },
+      "expected": {
+        "scope": {
+          "mode": "period",
+          "start": "2026-10-01",
+          "end": "2026-10-31",
+          "label": "范围：2026-10-01 至 2026-10-31"
+        },
+        "entryIds": [
+          "future",
+          "today_food",
+          "today_refund",
+          "yesterday",
+          "day_before",
+          "earlier_month"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-12": 750,
+          "2026-10-01": 750,
+          "2026-10-15": 750
+        },
+        "emptyDay": "",
+        "days": [
+          {
+            "date": "2026-10-15",
+            "expenseMinor": 750,
+            "label": "2026-10-15",
+            "entryIds": [
+              "future"
+            ]
+          },
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "今天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_refund"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "昨天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          },
+          {
+            "date": "2026-10-12",
+            "expenseMinor": 750,
+            "label": "前天 · 10-12",
+            "entryIds": [
+              "day_before"
+            ]
+          },
+          {
+            "date": "2026-10-01",
+            "expenseMinor": 750,
+            "label": "2026-10-01",
+            "entryIds": [
+              "earlier_month"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "range_search",
+      "options": {
+        "today": "2026-10-14",
+        "search": "早餐",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "2025-01-01",
+        "rangeEnd": "2025-12-31"
+      },
+      "expected": {
+        "scope": {
+          "mode": "period",
+          "start": "2025-01-01",
+          "end": "2025-12-31",
+          "label": "范围：2025-01-01 至 2025-12-31"
+        },
+        "entryIds": [
+          "history"
+        ],
+        "expenseByDay": {
+          "2025-08-01": 750
+        },
+        "emptyDay": "",
+        "days": [
+          {
+            "date": "2025-08-01",
+            "expenseMinor": 750,
+            "label": "2025-08-01",
+            "entryIds": [
+              "history"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "midnight",
+      "options": {
+        "today": "2026-10-15",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-10-13",
+          "end": "2026-10-15",
+          "label": "最近三天 · 10.13—10.15"
+        },
+        "entryIds": [
+          "future",
+          "today_food",
+          "today_print",
+          "today_income",
+          "today_refund",
+          "today_transfer",
+          "today_debt",
+          "yesterday"
+        ],
+        "expenseByDay": {
+          "2026-10-14": 1250,
+          "2026-10-13": 750,
+          "2026-10-15": 750
+        },
+        "emptyDay": "2026-10-15",
+        "days": [
+          {
+            "date": "2026-10-15",
+            "expenseMinor": 750,
+            "label": "今天 · 10-15",
+            "entryIds": [
+              "future"
+            ]
+          },
+          {
+            "date": "2026-10-14",
+            "expenseMinor": 1250,
+            "label": "昨天 · 10-14",
+            "entryIds": [
+              "today_food",
+              "today_print",
+              "today_income",
+              "today_refund",
+              "today_transfer",
+              "today_debt"
+            ]
+          },
+          {
+            "date": "2026-10-13",
+            "expenseMinor": 750,
+            "label": "前天 · 10-13",
+            "entryIds": [
+              "yesterday"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "cross_year",
+      "options": {
+        "today": "2027-01-01",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-12-30",
+          "end": "2027-01-01",
+          "label": "最近三天 · 12.30—01.01"
+        },
+        "entryIds": [],
+        "expenseByDay": {},
+        "emptyDay": "2027-01-01",
+        "days": [
+          {
+            "date": "2027-01-01",
+            "expenseMinor": 0,
+            "label": "今天 · 01-01",
+            "entryIds": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "leap_day",
+      "options": {
+        "today": "2024-03-01",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2024-02-28",
+          "end": "2024-03-01",
+          "label": "最近三天 · 02.28—03.01"
+        },
+        "entryIds": [],
+        "expenseByDay": {},
+        "emptyDay": "2024-03-01",
+        "days": [
+          {
+            "date": "2024-03-01",
+            "expenseMinor": 0,
+            "label": "今天 · 03-01",
+            "entryIds": []
+          }
+        ]
+      }
+    },
+    {
+      "name": "non_leap_day",
+      "options": {
+        "today": "2026-03-01",
+        "search": "",
+        "kind": "all",
+        "categoryId": "",
+        "dateFilter": "",
+        "rangeStart": "",
+        "rangeEnd": ""
+      },
+      "expected": {
+        "scope": {
+          "mode": "recent",
+          "start": "2026-02-27",
+          "end": "2026-03-01",
+          "label": "最近三天 · 02.27—03.01"
+        },
+        "entryIds": [],
+        "expenseByDay": {},
+        "emptyDay": "2026-03-01",
+        "days": [
+          {
+            "date": "2026-03-01",
+            "expenseMinor": 0,
+            "label": "今天 · 03-01",
+            "entryIds": []
+          }
+        ]
+      }
+    }
+  ]
+}

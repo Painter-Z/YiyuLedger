@@ -1,0 +1,12 @@
+{
+  "name": "yiyu-ledger",
+  "version": "0.7.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "preview": "node tools/preview-server.mjs",
+    "build:preview": "node tools/build-preview.mjs"
+  },
+  "engines": { "node": ">=24" }
+}

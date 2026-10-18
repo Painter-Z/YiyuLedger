@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#F5F5EF"><title>一语账 · 鸿蒙交互预览</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <aside class="preview-note">
+    <div class="preview-brand"><img src="./assets/app_icon.svg" alt="一语账"><span>一语账</span></div>
+    <p class="eyebrow">HARMONYOS · DESIGN PREVIEW</p>
+    <h1>说一句，<br>记一笔。</h1>
+    <p class="intro">让记录变轻，<br>让每一笔生活都有迹可循。</p>
+    <div class="preview-controls"><button data-action="tab" data-value="home">记账首页</button><button data-action="tab" data-value="ledger">账单明细</button><button data-action="tab" data-value="stats">收支统计</button><button data-action="toggle-data">查看空账本</button></div>
+    <div class="swatches"><i style="background:#234236"></i><i style="background:#DDE9CA"></i><i style="background:#F5F5EF"></i><i style="background:#C79C6D"></i></div>
+    <p class="preview-disclosure">可交互的界面预览，使用示例数据。<br>语音按钮演示交互，不采集麦克风。<br>原生客户端位于 harmony 目录。</p>
+  </aside>
+  <div class="phone-frame">
+    <div class="statusbar"><span>9:41</span><span class="status-icons"><svg viewBox="0 0 52 14" aria-hidden="true"><path d="M1 12V9h3v3zm5 0V6h3v6zm5 0V3h3v9zm5 0V0h3v12z" fill="currentColor"/><path d="M25 4q5-5 10 0m-8 3q3-3 6 0m-4 3q1-1 2 0" stroke="currentColor" fill="none" stroke-width="1.5" stroke-linecap="round"/><rect x="39" y="2" width="10" height="9" rx="2" fill="none" stroke="currentColor"/><path d="M50 5v3" stroke="currentColor"/><rect x="41" y="4" width="6" height="5" rx="1" fill="currentColor"/></svg></span></div>
+    <div id="app" class="app" aria-live="polite"></div>
+    <div class="home-indicator"></div>
+  </div>
+  <div id="toast" class="toast" role="status"></div>
+  <script type="module" src="./app.js"></script>
+</body></html>

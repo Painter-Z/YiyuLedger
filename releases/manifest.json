@@ -1,0 +1,203 @@
+{
+  "application": "一语账",
+  "repository_url": "https://github.com/Painter-Z/YiyuLedger",
+  "intended_visibility": "public",
+  "latest_version": "0.7.0",
+  "prepared_at": "2026-10-18T12:08:59.661056+08:00",
+  "packages": [
+    {
+      "version": "0.1.0",
+      "platform": "harmony",
+      "build": "unsigned",
+      "filename": "YiyuLedger-0.1.0-unsigned.hap",
+      "bytes": 446737,
+      "sha256": "7bb6666ffedcf4b1a0ef3ddce5a98f8ee09051320c131dd8f23a28b74f6c207d",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.1.0-unsigned.hap"
+    },
+    {
+      "version": "0.1.1",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.1.1-signed.hap",
+      "bytes": 498453,
+      "sha256": "6411c66de3c0d788be3ece37c931ce4db9fc5cd2890c8d05a470a4f5d6f3a865",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.1.1-signed.hap"
+    },
+    {
+      "version": "0.2.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.2.0-signed.hap",
+      "bytes": 583598,
+      "sha256": "740477924bcf630222f06fd7b3f5d02d422d757c0587d1f5611f63aa9458bb89",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.2.0-signed.hap"
+    },
+    {
+      "version": "0.3.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.3.0-signed.hap",
+      "bytes": 551945,
+      "sha256": "69df11fcd2437065e52e1665af3f995b8312ffd88758be06a937ce97cfed5160",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.3.0-signed.hap"
+    },
+    {
+      "version": "0.4.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.4.0-signed.hap",
+      "bytes": 650561,
+      "sha256": "489ac48f6b64acca15e83aad9d25311c37e4b5450d182aea19aca82839bb173a",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.4.0-signed.hap"
+    },
+    {
+      "version": "0.4.1",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.4.1-signed.hap",
+      "bytes": 666101,
+      "sha256": "b4a2f56d7d8928c5afbb6b97d8316bb2614c6242208eade1a84bd8d7292782f1",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.4.1-signed.hap"
+    },
+    {
+      "version": "0.5.0",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.5.0-android-debug.apk",
+      "bytes": 20248330,
+      "sha256": "39f9f2405684a63c632678de5e1432785600029ad48377a24a812eeac85523d9",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.5.0-android-debug.apk"
+    },
+    {
+      "version": "0.5.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.5.0-signed.hap",
+      "bytes": 742757,
+      "sha256": "c4a8b7139a8291e382d41954d7e0b0b6fb8517ce5812a6f3e061b6e1f95c594c",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.5.0-signed.hap"
+    },
+    {
+      "version": "0.5.1",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.5.1-android-debug.apk",
+      "bytes": 20264962,
+      "sha256": "7fef44d092b8356383294554280a335e393672f7b4118401558d2fe8b9ec8356",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.5.1-android-debug.apk"
+    },
+    {
+      "version": "0.5.1",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.5.1-signed.hap",
+      "bytes": 743144,
+      "sha256": "5f8787665923edd644c3534de34a34db50be527d708b567f84e24d8ac8957b16",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.5.1-signed.hap"
+    },
+    {
+      "version": "0.5.2",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.5.2-signed.hap",
+      "bytes": 743147,
+      "sha256": "4802b530dc053add6c1c4c81632ec0cbf928aa587a6ab2494a3feef0676fac34",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.5.2-signed.hap"
+    },
+    {
+      "version": "0.6.0",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.6.0-android-debug.apk",
+      "bytes": 20100173,
+      "sha256": "01262027d88b4cedc766aa236ed6d24295a780855c6e7c8b5b286ff5070f686f",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.0-android-debug.apk"
+    },
+    {
+      "version": "0.6.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.6.0-signed.hap",
+      "bytes": 790036,
+      "sha256": "5bf3fcf39624cf217e246ea2e422b37f4f7557a863f5cee99038924922299fd7",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.0-signed.hap"
+    },
+    {
+      "version": "0.6.1",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.6.1-android-debug.apk",
+      "bytes": 20104739,
+      "sha256": "fe95c308b9dcb4e6c8142c8a22f0703fe50a84539d8c38538ec6132a0ae4775d",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.1-android-debug.apk"
+    },
+    {
+      "version": "0.6.1",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.6.1-signed.hap",
+      "bytes": 796106,
+      "sha256": "b3a8b93652c6a85310751089d5a677e5fa0669f21d7b34a1ead480d1eaf05e7a",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.1-signed.hap"
+    },
+    {
+      "version": "0.6.2",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.6.2-android-debug.apk",
+      "bytes": 20380282,
+      "sha256": "9ee6c466255ad2b4f5f83f5a1421ad3abbfd519584d5c79415cc03456cd697ec",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.2-android-debug.apk"
+    },
+    {
+      "version": "0.6.3",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.6.3-android-debug.apk",
+      "bytes": 20208404,
+      "sha256": "663affc689daa79de261a78200b290e3faec156aecd39bf8052c9bba9e37412c",
+      "release_tag": "history-20261018",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/history-20261018/YiyuLedger-0.6.3-android-debug.apk"
+    },
+    {
+      "version": "0.7.0",
+      "platform": "android",
+      "build": "android-debug",
+      "filename": "YiyuLedger-0.7.0-android-debug.apk",
+      "bytes": 19939356,
+      "sha256": "94cedbcddc0ff1e30a22454a8b908234ac152ff69e36fc11ae207174644b5a02",
+      "release_tag": "v0.7.0",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/v0.7.0/YiyuLedger-0.7.0-android-debug.apk"
+    },
+    {
+      "version": "0.7.0",
+      "platform": "harmony",
+      "build": "signed",
+      "filename": "YiyuLedger-0.7.0-signed.hap",
+      "bytes": 835079,
+      "sha256": "7d16cbc102e04e7cbe5b1c4884b08c9f45214c0255974a0ccfe7942c2d6ecb86",
+      "release_tag": "v0.7.0",
+      "download_url": "https://github.com/Painter-Z/YiyuLedger/releases/download/v0.7.0/YiyuLedger-0.7.0-signed.hap"
+    }
+  ],
+  "package_count": 19,
+  "harmony_count": 12,
+  "android_count": 7,
+  "total_installer_bytes": 149293910
+}

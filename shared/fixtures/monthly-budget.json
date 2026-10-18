@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {"name":"unset","limit":0,"expense":900,"refund":0,"state":"unset","spent":900,"remaining":0,"overspent":0,"baseRatio":0,"overRatio":0},
+    {"name":"zero-spend","limit":10000,"expense":0,"refund":0,"state":"available","spent":0,"remaining":10000,"overspent":0,"baseRatio":0,"overRatio":0},
+    {"name":"half-used","limit":10000,"expense":5000,"refund":0,"state":"available","spent":5000,"remaining":5000,"overspent":0,"baseRatio":0.5,"overRatio":0},
+    {"name":"exact-limit","limit":10000,"expense":10000,"refund":0,"state":"reached","spent":10000,"remaining":0,"overspent":0,"baseRatio":1,"overRatio":0},
+    {"name":"one-cent-over","limit":10000,"expense":10001,"refund":0,"state":"over","spent":10001,"remaining":0,"overspent":1,"baseRatio":1,"overRatio":0.0001},
+    {"name":"half-lap-over","limit":10000,"expense":15000,"refund":0,"state":"over","spent":15000,"remaining":0,"overspent":5000,"baseRatio":1,"overRatio":0.5},
+    {"name":"over-two-laps","limit":10000,"expense":25000,"refund":0,"state":"over","spent":25000,"remaining":0,"overspent":15000,"baseRatio":1,"overRatio":1},
+    {"name":"refund-reduces-consumption","limit":10000,"expense":12000,"refund":3000,"state":"available","spent":9000,"remaining":1000,"overspent":0,"baseRatio":0.9,"overRatio":0},
+    {"name":"refund-exceeds-consumption","limit":10000,"expense":1000,"refund":2000,"state":"available","spent":0,"remaining":10000,"overspent":0,"baseRatio":0,"overRatio":0}
+  ]
+}

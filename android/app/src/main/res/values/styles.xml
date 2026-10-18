@@ -1,0 +1,16 @@
+<resources>
+    <style name="Theme.Yiyu.Base" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#234236</item>
+        <item name="android:windowBackground">#F7F8F3</item>
+    </style>
+    <style name="Theme.Yiyu" parent="Theme.Yiyu.Base" />
+    <style name="Theme.Yiyu.LedgerPicker" parent="Theme.Yiyu.Base">
+        <item name="android:colorControlNormal">#64735F</item>
+        <item name="android:textColorPrimary">#234236</item>
+        <item name="android:textColorSecondary">#64735F</item>
+        <item name="android:editTextColor">#234236</item>
+    </style>
+</resources>

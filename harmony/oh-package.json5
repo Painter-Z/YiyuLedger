@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "yiyu-ledger",
+  "version": "0.1.0",
+  "description": "一语账 · 鸿蒙原生语音记账",
+  "dependencies": {},
+  "devDependencies": {}
+}
